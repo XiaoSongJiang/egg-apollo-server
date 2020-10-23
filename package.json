@@ -28,6 +28,7 @@
     "url": "git+https://github.com/XiaoSongJiang/egg-apollo-server.git"
   },
   "author": "1273398724@qq.com",
+  "email": "1273398724@qq.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/XiaoSongJiang/egg-apollo-server/issues"
