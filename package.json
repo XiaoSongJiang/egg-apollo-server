@@ -1,5 +1,5 @@
 {
-  "name": "egg-apollo-server",
+  "name": "@XiaoSongJiang/egg-apollo-server",
   "version": "0.3.0",
   "description": "The apollo-server-koa plugin in egg.",
   "directories": {
