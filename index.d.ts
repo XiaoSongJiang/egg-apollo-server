@@ -22,6 +22,10 @@ export interface EggGraphqlConfig{
      * @default true
      */
     graphiql: boolean;
+    defaultEmptySchema: boolean;
+    subscriptions: any;
+    formatError: any;
+    debug: boolean;
 }
 declare module 'egg' {
     interface EggAppConfig  {
