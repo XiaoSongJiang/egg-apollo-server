@@ -27,13 +27,13 @@
 With yarn:
 
 ```sh
-yarn add egg-apollo-server
+yarn add egg-apollo-server-graphql
 ```
 
 or using npm
 
 ```sh
-npm install --save egg-apollo-server
+npm install --save egg-apollo-server-graphql
 ```
 
 ### Usage
@@ -42,10 +42,10 @@ npm install --save egg-apollo-server
 
 ```js
 // config/plugin.js
-exports.graphql = {
-  enable: true,
-  package: 'egg-apollo-server'
-};
+exports.graphql= {
+    enable: true,
+    package: 'egg-apollo-server-graphql',
+  },
 ```
 
 2. 在 config/config.\${env}.js 配置 graphql options。支持 apollo-server 中的所有
